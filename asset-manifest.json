@@ -1,0 +1,16 @@
+{
+  "main.css": "/URLShortener/static/css/main.9b9875d9.chunk.css",
+  "main.js": "/URLShortener/static/js/main.fd1e458a.chunk.js",
+  "main.js.map": "/URLShortener/static/js/main.fd1e458a.chunk.js.map",
+  "static/css/1.8f1df2b9.chunk.css": "/URLShortener/static/css/1.8f1df2b9.chunk.css",
+  "static/js/1.97de1449.chunk.js": "/URLShortener/static/js/1.97de1449.chunk.js",
+  "static/js/1.97de1449.chunk.js.map": "/URLShortener/static/js/1.97de1449.chunk.js.map",
+  "runtime~main.js": "/URLShortener/static/js/runtime~main.3a0d12fb.js",
+  "runtime~main.js.map": "/URLShortener/static/js/runtime~main.3a0d12fb.js.map",
+  "static/media/index.css": "/URLShortener/static/media/roboto-latin-500italic.510dec37.woff2",
+  "static/css/main.9b9875d9.chunk.css.map": "/URLShortener/static/css/main.9b9875d9.chunk.css.map",
+  "static/css/1.8f1df2b9.chunk.css.map": "/URLShortener/static/css/1.8f1df2b9.chunk.css.map",
+  "index.html": "/URLShortener/index.html",
+  "precache-manifest.ae304d0f352f3f24df6a00a21915bfee.js": "/URLShortener/precache-manifest.ae304d0f352f3f24df6a00a21915bfee.js",
+  "service-worker.js": "/URLShortener/service-worker.js"
+}
