@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import compression from './compression'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const target = window.location.pathname.substr(1);
+if (target.length > 0) {
+    let url = compression.expand(decodeURI(target))
+    if (!compression.validate(url)) {
+        alert("Could not redirect you to a valid URL.");
+        window.location.replace(window.location.origin);
+    } else {
+        window.location.replace(url);
+    }
+} else {
+    ReactDOM.render(<App />, document.getElementById('root'));
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
